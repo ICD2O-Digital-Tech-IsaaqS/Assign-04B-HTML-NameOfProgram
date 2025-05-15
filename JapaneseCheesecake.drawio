@@ -1,9 +1,117 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="26.2.14">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1426" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="2lRGtOp8sFa3giVUsqYv-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2lRGtOp8sFa3giVUsqYv-0" target="2lRGtOp8sFa3giVUsqYv-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2lRGtOp8sFa3giVUsqYv-0" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="350" y="30" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2lRGtOp8sFa3giVUsqYv-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2lRGtOp8sFa3giVUsqYv-4" target="2lRGtOp8sFa3giVUsqYv-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2lRGtOp8sFa3giVUsqYv-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2lRGtOp8sFa3giVUsqYv-4" target="2lRGtOp8sFa3giVUsqYv-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2lRGtOp8sFa3giVUsqYv-4" value="Cheesecake size == user input" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="330" y="290" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="2lRGtOp8sFa3giVUsqYv-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2lRGtOp8sFa3giVUsqYv-6" target="2lRGtOp8sFa3giVUsqYv-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2lRGtOp8sFa3giVUsqYv-6" value="Display opinion bar for user.&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="330" y="120" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2lRGtOp8sFa3giVUsqYv-12" value="Display &quot;Please select a size&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="500" y="325" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2lRGtOp8sFa3giVUsqYv-14" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="460" y="320" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2lRGtOp8sFa3giVUsqYv-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2lRGtOp8sFa3giVUsqYv-15" target="2lRGtOp8sFa3giVUsqYv-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2lRGtOp8sFa3giVUsqYv-15" value="Display size and price" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="317.5" y="440" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2lRGtOp8sFa3giVUsqYv-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2lRGtOp8sFa3giVUsqYv-17" target="2lRGtOp8sFa3giVUsqYv-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2lRGtOp8sFa3giVUsqYv-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2lRGtOp8sFa3giVUsqYv-17" target="2lRGtOp8sFa3giVUsqYv-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2lRGtOp8sFa3giVUsqYv-17" value="Cheesecake type == user input" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="327.5" y="520" width="155" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2lRGtOp8sFa3giVUsqYv-19" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="414" y="410" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2lRGtOp8sFa3giVUsqYv-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2lRGtOp8sFa3giVUsqYv-20" target="2lRGtOp8sFa3giVUsqYv-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2lRGtOp8sFa3giVUsqYv-20" value="Get user input for their order." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="345" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2lRGtOp8sFa3giVUsqYv-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2lRGtOp8sFa3giVUsqYv-23" target="2lRGtOp8sFa3giVUsqYv-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2lRGtOp8sFa3giVUsqYv-23" value="Display &quot;Souffle is our default flavour would you like to change the flavour? If not, please hit continue with souffle.&quot;&amp;nbsp; &amp;nbsp;&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="520" y="522.5" width="380" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="2lRGtOp8sFa3giVUsqYv-25" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="470" y="550" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2lRGtOp8sFa3giVUsqYv-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2lRGtOp8sFa3giVUsqYv-26" target="2lRGtOp8sFa3giVUsqYv-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2lRGtOp8sFa3giVUsqYv-26" value="Display type and price&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="345" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2lRGtOp8sFa3giVUsqYv-28" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="410" y="630" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2lRGtOp8sFa3giVUsqYv-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2lRGtOp8sFa3giVUsqYv-33" target="2lRGtOp8sFa3giVUsqYv-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2lRGtOp8sFa3giVUsqYv-33" value="Display button &quot;Continue with souffle" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="615" y="660" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2lRGtOp8sFa3giVUsqYv-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2lRGtOp8sFa3giVUsqYv-36" target="2lRGtOp8sFa3giVUsqYv-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2lRGtOp8sFa3giVUsqYv-36" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Calculate &quot;&lt;span style=&quot;&quot; id=&quot;docs-internal-guid-31fa6884-7fff-f71f-86b2-28a787f939eb&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;subtotal = &lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;selectedPanPrice + selectedCheesecakePrice&quot;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="272.5" y="750" width="265" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2lRGtOp8sFa3giVUsqYv-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2lRGtOp8sFa3giVUsqYv-38" target="2lRGtOp8sFa3giVUsqYv-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2lRGtOp8sFa3giVUsqYv-38" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;Calculate &quot;&lt;span style=&quot;&quot; id=&quot;docs-internal-guid-31fa6884-7fff-f71f-86b2-28a787f939eb&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;span style=&quot;&quot; id=&quot;docs-internal-guid-2f021f1a-7fff-1453-3221-3e98781fb702&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline;&quot;&gt;tax = &lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline;&quot;&gt;subtotal * TAX_RATE&lt;/span&gt;&lt;/span&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="272.5" y="840" width="265" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2lRGtOp8sFa3giVUsqYv-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2lRGtOp8sFa3giVUsqYv-40" target="2lRGtOp8sFa3giVUsqYv-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2lRGtOp8sFa3giVUsqYv-40" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;Calculate &quot;&lt;span style=&quot;&quot; id=&quot;docs-internal-guid-535d83c5-7fff-caeb-8c3a-57fdebea851c&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;total = &lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;subtotal + tax&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;&quot; id=&quot;docs-internal-guid-31fa6884-7fff-f71f-86b2-28a787f939eb&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="272.5" y="930" width="265" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2lRGtOp8sFa3giVUsqYv-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2lRGtOp8sFa3giVUsqYv-42" target="2lRGtOp8sFa3giVUsqYv-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2lRGtOp8sFa3giVUsqYv-42" value="Display price of subtotal, tax, and total" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="282.5" y="1030" width="245" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2lRGtOp8sFa3giVUsqYv-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2lRGtOp8sFa3giVUsqYv-44" target="2lRGtOp8sFa3giVUsqYv-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2lRGtOp8sFa3giVUsqYv-44" value="Display &quot;Please enter your credit/debit card to complete your&amp;nbsp;purchase." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="217.5" y="1120" width="375" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2lRGtOp8sFa3giVUsqYv-46" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="345" y="1210" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
