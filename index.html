@@ -1,9 +1,82 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Title</title>
-  </head>
-  <body>
-    <p>Paragraph</p>
-  </body>
+<html lang="en">
+<head>
+  <!-- Meta and Page Title -->
+  <meta name="description" content="Japanese Cheesecake Order, JavaScript">
+  <meta name="keywords" content="Immaculata, ICD2O">
+  <meta name="author" content="Isaaq Simon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io (19)/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io (19)/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io (19)/favicon-16x16.png">
+  <link rel="manifest" href="./favicon_io (19)/site.webmanifest">
+  <title>Japanese Cheesecake Order</title>
+
+  <!-- Link to CSS Stylesheet -->
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!-- Link to JavaScript File -->
+  <script defer src="./js/script.js"></script>
+
+  <!-- Material Design Lite (MDL) for styling -->
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</head>
+<body>
+  <header>
+    <!-- Page Heading -->
+    <h1>Order Your Japanese Cheesecake</h1>
+  </header>
+
+  <main>
+    <!-- Section for Size Selection -->
+    <section>
+      <label for="size">Select Cake Size:</label>
+      <select id="size">
+        <option value="">--Choose a size--</option>
+        <option value="8">8-inch round cake pan with 3-inch sides ($9.49)</option>
+        <option value="7">7-inch round cake pan with 4-inch sides ($11.79)</option>
+        <option value="6">6-inch round cake pan with 3-inch sides ($8.99)</option>
+      </select>
+    </section>
+
+    <!-- Section for Cheesecake Type Selection -->
+    <section>
+      <label for="type">Select Cheesecake Type:</label>
+      <select id="type">
+        <option value="Souffle">Souffle (Default)</option>
+        <option value="Rare">Rare Cheesecake ($0.29)</option>
+        <option value="Baked">Baked Cheesecake ($0.79)</option>
+        <option value="Matcha">Matcha Cheesecake ($1.99)</option>
+        <option value="Basque">Basque Cheesecake ($1.99)</option>
+      </select>
+    </section>
+
+    <!-- Image and Description -->
+    <section>
+      <img src="./images/japaneseCheesecake.png" alt="Japanese Cheesecake" width="300">
+      <p class="description">
+        Choose from a variety of delicious, fluffy Japanese cheesecakes made with love and precision!
+      </p>
+    </section>
+
+    <!-- Section for Output Summary -->
+    <section class="output">
+      <p id="summary"></p>
+      <p id="subtotal"></p>
+      <p id="tax"></p>
+      <p id="total"></p>
+    </section>
+
+    <!-- Payment Input and Submit Button -->
+    <section>
+      <label for="card">Enter Credit/Debit Card:</label>
+      <input type="text" id="card" placeholder="1234-5678-9012-3456">
+      <br><br>
+      <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onclick="calculateTotal()">
+        Submit Order
+      </button>
+    </section>
+  </main>
+</body>
 </html>
